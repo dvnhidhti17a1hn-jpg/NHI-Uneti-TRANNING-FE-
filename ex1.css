@@ -1,0 +1,26 @@
+/*body{
+    background-color:rgb(190, 245, 194)
+}*/
+.content{
+    background-color:rgb(152, 243, 125);
+    color:white;
+}
+body{
+    background-image:url('../css4/images/nen2.jpg');
+}
+.block{
+    color:black;
+    background-image: url('../css4/images/nen4.jpg');
+    /*background-color:rgb(62, 62, 251);*/
+    background-size: 200px;
+    height:900px;
+    background-repeat: repeat-y;
+    background-position: 20px;
+}
+.banner{
+    color:black;
+    background-image: url('../css4/images/nen3.jpg');
+    background-size:200px;
+    height:1000px;
+    background-repeat: repeat-x;
+}
