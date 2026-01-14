@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lớp giả trong Css</title>
+    <style class="text/css">
+        .btn{
+            background:deeppink;
+            color:white;
+            border:0;
+        }
+        /*.btn:hover{
+            background:blue;
+        }*/
+        .btn:active{
+            background-color: green;
+        }
+        .btn:focus{
+            background-color:pink;
+        }
+        /*.text:active{
+            background-color:hotpink;
+        }*/
+        .field-item:focus{
+            background-color:rgb(235, 197, 204);
+            border: 1px solid deeppink;
+
+        }
+        .field-item:active{
+            background-color:rgb(175, 116, 230);
+            border: 1px solid rgb(128, 128, 225);
+        }
+        .gender-field label input:checked + span{
+            color:fuchsia;
+            text-decoration:line-through;           
+        }
+        .job_lists label input:checked ~ span{
+            color:fuchsia;
+            text-decoration:line-through;
+            font-style: italic;
+        }
+        .menu-box .primary-menu,          
+        .menu.box #menu-toggle{
+            display:none;
+        }
+        
+        .menu-box .menu-btn{
+            background-color:green;
+            padding: 3px 10px;
+            color:white;
+            cursor: pointer;
+        }
+        .menu-box input:checked ~ .primary.menu{
+            display:block;
+        }
+        .form-register .field-item:disabled{
+            background:deeppink;
+            border:0;
+            color:white;
+        }
+        .content p:not(.highlight){
+            color:hotpink;
+        }
+        .list-position .li:first-child{
+            color:green;
+            font-style: italic;
+        }
+        .list-position .li:last-child{
+            color:blue;
+            font-weight: bold;
+        }
+        /*.list-position .item:first-of-type{
+            color:blueviolet
+        }
+        .list-position .item:last-of-type{
+            color:blueviolet
+        }*/
+        /*.product-lists .product-item:nth-child(2n+2){
+            color:forestgreen;
+        }
+        .product-lists .product-item:nth-child(2n+1){
+            color:red;
+        }*/
+        /*.product-lists .product-item:nth-of-type(2n){
+            color:green;
+        }*/
+        :root{
+            --primary-color: green;
+        }
+        .product-lists .product-item:nth-child(1),
+        .product-lists .product-item:nth-child(2){
+            color:var(--primary-color);
+        }
+
+    </style>
+</head>
+<body style="height: 200px;">
+    <input type="text" class="field-item"></input>
+    <button type="button" class="btn">Click here</button>
+    <p class="text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error praesentium quis est molestias rem earum aperiam in deleniti corrupti quo voluptas nemo iste itaque autem ullam quae minus, ex voluptatem?
+    </p>
+    <form action="">
+        <p class="gender-field">
+            Giới tính<br/>
+            <label class="" for="male">
+                  <input type="radio" name="gender" value="1" id="male"/>
+                  <span>Nam</span>
+            </label>
+            <label class="" for="female">
+                  <input type="radio" name="gender" value="0" id="female"/>
+                  <span>Nữ</span>
+            </label>
+        </p>
+        <div class="job_lists">
+            Danh sách công việc: <br/>
+            <p>
+                <label for="job_1">
+                    <input type="checkbox" id="job_1"/>
+                    <span>Công việc 1</span>
+                </label>
+            </p>
+            <p>
+                <label for="job_2">
+                    <input type="checkbox" id="job_2"/>
+                    <span>Công việc 2</span>
+                </label>
+            </p>
+            <p>
+                <label for="job_3">
+                    <input type="checkbox" id="job_3"/>
+                    <span>Công việc 3</span>
+                </label>
+            </p>
+        </div>
+    </form>
+    <div class="menu-box">
+        <label for="menu-toggle" class="menu-btn">menu</label>
+        <input type="checkbox" id="menu-toggle">
+            <nav class="primary-menu">
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li> 
+                    <li><a href="#">Item 4</a></li>    
+                </ul>
+            </nav><!--End .primary-menu-->
+
+    </div><!--End .menu-box-->
+    <form action="" class="form-register">
+        <p><input type="text" class="field-item" placeholder="Tên đăng nhập..."/></p>
+        <p><input type="password" class="field-item" placeholder="Mật khẩu..."/></p>
+        <p><input type="text" class="field-item" placeholder="Họ và tên..." disabled/></p>
+        <button type="submit">Đăng ký</button>
+    </form>
+    <div class="content">
+        <p>
+            Unicode Academy
+        </p>
+        <p></p>
+        <p class="highline">
+            Unicode Academy
+        </p>
+        <p>
+            Unicode Academy
+        </p>
+    </div>
+    <ul class="list-position">
+        <span class="item">Vị trí 0</span>
+        <li class="item">Vị trí 1</li>
+        <li class="item">Vị trí 2</li>
+        <li class="item">Vị trí 3</li>
+        <li class="item">Vị trí 4</li>
+        <span class="item">Vị trí 4.1</span>
+        <li class="item">Vị trí 5</li> 
+        <span class="item">Vị trí 5.1</span>
+    </ul>
+    <div class="product-lists">
+        <div class="product-item">
+            <h3>Sản phẩm 1</h3>
+        </div>
+         <div class="product-item">
+            <h3>Sản phẩm 2</h3>
+        </div>
+         <div class="product-item">
+            <h3>Sản phẩm 2.1</h3>
+        </div>
+         <div class="product-item">
+            <h3>Sản phẩm 3</h3>
+        </div>
+         <div class="product-item">
+            <h3>Sản phẩm 4</h3>
+        </div>
+        <div class="product-item">
+            <h3>Sản phẩm 5</h3>
+        </div>
+
+    </div><!--End .product-lists-->
+    
+</body>
+</html>

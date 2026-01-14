@@ -1,0 +1,21 @@
+p{
+    color:fuchsia;
+}
+h2{
+    background:rgb(128, 212, 212);
+    color:blueviolet;
+    font-style:italic;
+}
+h3{
+    color:fuchsia;
+    font:italic;
+}
+text{
+    color:blueviolet;
+}
+.title{
+    color:aqua;
+}
+.feature{
+    color:antiquewhite;
+}

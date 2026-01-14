@@ -1,0 +1,45 @@
+.content .item{
+    color:blue;
+}
+#main .item{
+    color:darkblue;
+}
+.products .product-item .product-name{
+    color:black;
+
+}
+.new .new-detail{
+    color:brown;
+}
+.primary-menu >ul >li >a{
+    color:darkmagenta;
+    text-decoration: none;
+}
+.primary-menu >ul ul{
+    color:darkmagenta;
+}
+.primary-menu >ul ul >li >a{
+    color:white;
+    text-decoration: none;
+}
+div.block{
+    color:blue;
+}
+p.block{
+    color:blue;
+}
+.element.text#text{
+    color:darkblue;
+}
+.element.title#title{
+    color:darkblue;
+}
+.products-box .product-item{
+    color:blueviolet;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.products-box .product-item feature{
+    color:cadetblue;
+    font-size: 2rem;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thành phần giả trong Css</title>
+    <style type="text/css">
+        .title{
+            color:green;
+        }
+        .title:before{
+            content:'';
+            width:30px;
+            height: 30px;
+            display:inline-block;
+            background:aquamarine;
+            margin-right: 10px;
+        }
+        /*.title::after{
+            content:'>';
+        }*/
+        .content::first-letter{
+            color:red;
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+        }
+        .content::first-line{
+            color:green;
+        }
+        .content::selection{
+            color:red;
+            background-color:rgb(39, 215, 39);
+        }
+
+    </style>
+</head>
+<body>
+    <h2 class="title">Unicode Academy</h2>
+    <h2 class="title">Unicode Academy</h2>
+    <h2 class="title">Unicode Academy</h2>
+    <h2 class="title">Unicode Academy</h2>
+    <!--<h2 class="title2">
+        <span><</span>
+        Unicode Academy
+        <span>></span>
+
+    </h2-->
+    <p class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit provident, explicabo ratione qui quas inventore debitis labore quibusdam quaerat id! Veniam nulla qui magnam cupiditate eligendi. Facilis amet optio illum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae fugit suscipit magni, est numquam dolore itaque enim sint commodi quidem, neque sit aliquid pariatur sunt at sed tenetur tempora consequuntur.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus eaque mollitia inventore repellat dolorem. Itaque, repellat? Rerum consequatur dolores voluptatum in aliquid doloribus nemo perspiciatis atque corporis dolor, cumque unde.
+    </p>
+    
+</body>
+</html>

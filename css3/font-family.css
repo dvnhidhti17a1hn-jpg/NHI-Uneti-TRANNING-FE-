@@ -1,0 +1,11 @@
+@font-face{
+            font-famliy:"Open Sans";
+            src: url('../fonts/Open Sans-Regular.ttf');
+        }
+        .text{
+            color:deeppink;
+            font-family:'Times New Roman',Times,serif;
+        }
+        .content{
+            font-family: "Open Sans",sans-serif;
+        }

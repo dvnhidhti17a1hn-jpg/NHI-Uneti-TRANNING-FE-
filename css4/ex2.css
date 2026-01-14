@@ -1,0 +1,17 @@
+.sprites ul{
+    list-style: none;
+}
+.sprites ul li::before{
+    content:'';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: cornflowerblue;
+    margin-right: 5px;
+    position: relative;
+    top:3px;
+    background:url()
+}
+.sprites ul li{
+    line-height: 30px;
+}

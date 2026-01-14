@@ -1,0 +1,38 @@
+p ~ul{
+            background:cornflowerblue;
+        }
+        .content .block ~.element p ~span{
+            color:deeppink
+        }
+        .text p ~ p{
+            color:blueviolet;
+        }
+        .menu{
+            list-style: none;
+            background-color: aqua;
+            padding: 5px;
+        }
+        .menu li{
+            display:inline-block;
+            background: cadetblue;
+            color:blueviolet;
+            padding: 10px;
+            border-right: 1px solid;
+        }
+        .menu li + li{
+            border-left: 1px solid;
+
+        }
+        .content>*{
+            color:darkblue;
+        }
+        .list-website a[target]{
+            color:red;
+        }
+        .form input[type="text"]{
+            border: 1px solid green;
+            background:darkseagreen;
+        }
+        .list-links a[href^="https://unicode.vn"]{
+            color:darkgreen;
+        }

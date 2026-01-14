@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học Css</title>
+    <link rel="stylesheet" href="css/ex3.css">
+    <style type="text/css">
+    
+        p ~ul{
+            background:cornflowerblue;
+        }
+        .content .block ~.element p ~span{
+            color:deeppink
+        }
+        .text p ~ p{
+            color:blueviolet;
+        }
+        .menu{
+            list-style: none;
+            background-color: aqua;
+            padding: 5px;
+        }
+        .menu li{
+            display:inline-block;
+            background: cadetblue;
+            color:blueviolet;
+            padding: 10px;
+            border-right: 1px solid;
+        }
+        .menu li + li{
+            border-left: 1px solid;
+
+        }
+        .content>*{
+            color:darkblue;
+        }
+        .list-website a[target]{
+            color:red;
+        }
+        .form input[type="text"]{
+            border: 1px solid green;
+            background:darkseagreen;
+        }
+        .list-links a[href^="https://unicode.vn"]{
+            color:darkgreen;
+        }
+
+    </style>
+</head>
+<body style="height: 2000px;">
+    <p>Test background màu greenyellow:</p>
+    <ul>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+    </ul>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, a sint! In dolores ducimus fugit vitae libero nihil quam expedita, eos, nulla incidunt quas eum, rerum consectetur ea doloremque deleniti!
+    </div>
+    <ul>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+    </ul>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi praesentium minus dolorum mollitia culpa esse eaque nihil, itaque sit in alias enim dolores id, magnam blanditiis a. Similique, ut ducimus.
+    </div>
+    <ul>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+    </ul>
+    <div class="content">
+        <div class="block">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, laudantium ea! Nisi vitae cupiditate quidem error nostrum cum neque voluptatem temporibus vel placeat. Eveniet quis sed fugit alias totam reiciendis.
+        </div>
+        <div class="element">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi culpa in accusamus vero optio nesciunt impedit pariatur vel. Voluptatum blanditiis quasi provident rem mollitia laborum temporibus quam laboriosam reiciendis voluptatibus.
+            </p>
+            <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloribus eius numquam asperiores ipsam accusantium, quidem distinctio quasi ipsa deleniti saepe perferendis laborum hic sequi explicabo magni similique expedita neque?
+            </span>
+        </div>
+        <div class="text">
+            <p>Item1</p>
+            <span>Unicode</span>
+            <p>Item2</p>
+            <span>Unicode</span>
+            <p>Item3</p>
+            <span>Unicode</span>
+            <p>Item4</p>
+            <span>Unicode</span>
+
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+                <li>Item4</li>
+                <li>Item5</li>
+            
+            </ul>
+        </nav>
+        <div class="content">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci ea labore quia dolorum quod numquam, commodi rerum vero soluta sapiente nihil sed beatae laboriosam iure corrupti quaerat ullam minus temporibus.
+        </div>
+        <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt similique accusamus incidunt voluptatum nisi explicabo impedit voluptates est inventore. Aspernatur ut iure culpa laborum aperiam ipsum nostrum quis magnam totam!
+        </span>
+        <ul class="menu">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+                <li>Item4</li>
+                <li>Item5</li>
+            
+            </ul>
+            <div class="list-website">
+                <p><a href="https://unicode.vn">Unicode Academy</a></p>
+                <p><a href="https://vnexpress.net"
+                    target="_blank">VnexPress</a></p>
+                <p><a href="https://dantri.com">DanTri</a></p>
+
+            </div>
+            <div class="form">
+                <input type="text" placeholder="họ tên"/><br/>
+                <input type="text" placeholder="địa chỉ"/><br/>
+                <input type="text" placeholder="Email"/><br/>
+                <input type="text" placeholder="Tuổi"/>
+
+            </div>
+            <div class="list-links">
+                <P><a href="https://vnexpress.net">Vnexpress</a></P>
+                <P><a href="https://dantri.com">DanTri</a></P>
+                <P><a href="https://unicode.vn">Unicode Academy</a></P>
+                <P><a href="https://unicode.vn/khoahoc">Unicode Khoa Hoc</a></P>
+                <P><a href="https://unicode.vn/khoahoc/fullstack">Unicode Khoa Hoc Fullstack</a></P>
+            </div>
+
+    </div>
+
+    
+</body>
+</html>
