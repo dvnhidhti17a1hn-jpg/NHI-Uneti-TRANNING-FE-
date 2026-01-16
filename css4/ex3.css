@@ -1,0 +1,14 @@
+.content{
+    background: pink;
+    color:blueviolet;
+    border-radius: 10px 20px 40px 0px;
+}
+.block{
+    width: 280px;
+    height:280px;
+    background:deepskyblue;
+    margin:30px auto;
+    /*border-radius: 50%;*/
+    /*border-top-left-radius: 10px;*/
+    border-radius: 10px 0 0 0;
+}

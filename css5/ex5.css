@@ -1,0 +1,11 @@
+.content{
+    height:200px;
+    border:1px solid fuchsia;
+    width:200px;
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.content ul{
+    width:500px;
+}

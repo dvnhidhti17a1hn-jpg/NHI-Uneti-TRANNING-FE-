@@ -1,0 +1,11 @@
+.btn{
+    text-align: center;
+    background-color: rgb(222, 175, 222);
+    border:1px solid fuchsia;
+}
+.btn-wrap{
+    width:500px;
+    border: 1px solid fuchsia;
+    text-align: left;
+    text-align-last:left;
+}

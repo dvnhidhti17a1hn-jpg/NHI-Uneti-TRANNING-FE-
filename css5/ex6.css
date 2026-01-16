@@ -1,0 +1,28 @@
+.text{
+    color:white;
+    background:fuchsia;
+    opacity:0.5;
+}
+.content{
+    background-color: fuchsia;
+    color:white;
+    text-align: center;
+    background:url('https://picsum.photos/1000') no-repeat;
+    background-size: cover;
+}
+.content h1{
+    color:white;
+    background-color:green;
+}
+/*.content .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: pink;
+}*/
+.content .content-inner{
+    position: relative;
+    z-index: 1;
+}

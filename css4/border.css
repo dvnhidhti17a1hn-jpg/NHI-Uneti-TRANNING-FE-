@@ -1,0 +1,17 @@
+.content{
+   /* border-top: 3px dotted rgb(229, 54, 176);
+    border-bottom: 3px double rgb(229, 54, 176);
+    border-left: none;*/
+    border-width: 3px;
+    border-top-width: 5px;
+    border-style: outset;
+    border-color: rgb(231, 77, 221);
+}
+.wrapper .item{
+    border: 2px dotted rgb(235, 109, 197);
+    margin:10px;
+}
+.wrapper .feauture{
+    border-color: rgb(12, 113, 12);
+    border-width: 3px;
+}

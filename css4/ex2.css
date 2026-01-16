@@ -6,12 +6,44 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-color: cornflowerblue;
     margin-right: 5px;
     position: relative;
     top:3px;
-    background:url()
+    background:url('../css4/images/logo.png') no-repeat;
+    background-size: 97px;
+    transition: all 0.3s ease;
 }
+.sprites ul li.FaceBook::before{
+    background-position: -19px 0px;
+}
+.sprites ul li.FaceBook:hover:before{
+    background-position: -19px -59px;
+}
+.sprites ul li.Twitter::before{
+    background-position: 1px 0px;
+}
+.sprites ul li.Twitter:hover:before{
+    background-position: 1px -59px;
+}
+.sprites ul li.Vimeo::before{
+    background-position: -57px 0px;
+}
+.sprites ul li.Vimeo:hover:before{
+    background-position: -57px -59px;
+}
+.sprites ul li.Dl::before{
+    background-position: -38px 0px;
+}
+.sprites ul li.Dl:hover:before{
+    background-position: -38px -59px;
+}
+.sprites ul li.Dr::before{
+    background-position: -78px 0px;
+}
+.sprites ul li.Dr:hover:before{
+    background-position: -78px -59px;
+}
+    
 .sprites ul li{
     line-height: 30px;
 }

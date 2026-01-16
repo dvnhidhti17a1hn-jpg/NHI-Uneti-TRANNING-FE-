@@ -1,0 +1,25 @@
+/*html{
+    font-size: 20px;
+}*/
+.content{
+    width:400px;
+    font-size: 20px;
+}
+.block{
+    width:500px;
+    /*background:fuchsia;
+    color: white;*/
+    border:1px solid rgb(230, 64, 177);
+}
+.block img{
+   /* width:500px;*/
+    max-width:400px;
+}
+.demo a{
+    width:200px;
+    background: fuchsia;
+    color: white;
+}
+.demo input{
+    width:200px;
+}

@@ -1,0 +1,19 @@
+.gallery-lists img{
+    border-radius: 10px;
+    border:1px solid green;
+    cursor: pointer;
+}
+.gallery-lists img:hover{
+    opacity:0.5;
+    filter:grayscale(1);
+}
+.map iframe{
+    width:100%;
+    /*opacity:0.5;*/
+    filter:grayscale(1);
+}
+.video iframe{
+    width:100%;
+    opacity:0.5;
+    filter:grayscale(1);
+}

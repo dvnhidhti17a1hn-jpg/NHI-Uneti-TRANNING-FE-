@@ -1,0 +1,18 @@
+.content{
+    color:fuchsia;
+    width:525px;
+    padding:20px 20px 30px 50px;
+    border:1px solid green;
+    box-sizing:border-box;
+}
+.block{
+    text-align: center;
+    padding:20px 0;
+    border:1px solid green;
+}
+.btn{
+    color:fuchsia;
+    text-decoration: none;
+    border:1px solid green;
+    padding:10px 30px;
+}
