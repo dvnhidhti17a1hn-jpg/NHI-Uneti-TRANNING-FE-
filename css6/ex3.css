@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline:none;
+}
+body{
+    line-height: 1.5;
+}
+html{
+    font-size: 16px;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.register-box{
+    padding:30px 0;
+}
+.register-box h2, .register-box p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.register-box h2{
+    font-size: 2rem;
+}
+.register-box .register-header{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.register-box form{
+    background-color:rgb(204, 225, 204);
+    padding:15px;
+
+}
+.register-box td{
+    padding:5px;
+}
+.register-box .field-item{
+    width:100%;
+    border:none;
+    padding:10px 20px;
+
+}
+.register-box textarea.field-item{
+    font-family: initial;
+}
+.register-box select option{
+    opacity:0.5
+
+}
+.register-box button{
+    width:100%;
+    background-color:gray;
+    color:white;
+    border:none;
+    padding:10px 0;
+    cursor:pointer;
+}

@@ -1,0 +1,27 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    outline:none;
+}
+.container{
+    max-width: 900px;
+    margin:0 auto;
+}
+.clear{
+    clear:both;
+}
+.box::after{
+    content:'';
+    display:block;
+}
+.item{
+    width:33.33%;
+    float:left;
+    padding:10px;
+    background-color:rgb(239, 80, 197);
+    color:white;
+}
+.box{
+    overflow:auto;
+}
