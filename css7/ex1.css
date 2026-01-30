@@ -4,7 +4,112 @@
     box-sizing: border-box;
     outline:none;
 }
-.container{
+html{
+    font-size:16px;
+}
+body{
+    font-size:0.95rem;
+    line-height: 1.5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:gray;
+}
+a{
+    text-decoration: none;
+    color:rgb(78, 78, 78);
+}
+a:hover{
+    color:rgb(153, 95, 208);
+}
+img{
+    max-width: 100%;
+    height:auto;
+}
+/*.container{
     width:1170px;
     margin:0 auto;
+}*/
+.news-top{
+    padding:30px 0;
+}
+.news-top .top-trending .tag-trending{
+    list-style: none;
+}
+.news-top .top-trending .tag-trending::before{
+    content:'';
+    width:24px;
+    height:28px;
+    background:url('../css4/images/SEA_Games_logo.svg.png') no-repeat;
+    display:inline-block;
+    background-size: 100% 100%;
+    position:relative;
+    top:9px;
+}
+.news-top .top-trending .tag-trending li{
+    display:inline-block;
+    padding: 0 10px;
+}
+.news-top .top-trending .tag-trending li a{
+    display:block;
+    background:rgb(237, 232, 232);
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+.news-top .top-trending .tag-trending li a::before{
+    content:'#';
+    margin-right:5px;
+}
+.news-top .top-trending .tag-trending li a:hover{
+    background-color: aqua;
+    color:rgb(180, 178, 178);
+}
+.news-top .top-trending .weather{
+    padding:5px 0;
+    text-align: right;
+}
+.news-top .top-trending .weather::after{
+    content:'';
+    display:block;
+    float:right;
+    background:url('../css4/images/unnamed.jpg') no-repeat;
+    width:26px;
+    height:26px;
+    background-size:100% 100%;
+    position:relative;
+    top:-3px;
+    margin-left:5px;
+}
+.news-top .top-lists{
+    padding:10px 0;
+}
+.news-top .top-lists .posts-item{
+    padding:10px 0;
+    border-bottom:1px solid rgb(227, 225, 225);
+}
+.news-top .top-lists .posts-item:last-child{
+    border:none;
+}
+.news-top .top-lists .posts-item h3{
+    font-size: .75rem;
+}
+.news-top .top-lists .posts-center img{
+    margin-bottom: 10px;
+    padding-top:10px;
+}
+.news-top .top-lists .posts-center h2{
+    font-size:2rem;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+.news-top .top-lists .posts-center ul{
+    list-style-position: inside;
+    list-style-type: square;
+}
+.news-top .top-lists .posts-center p{
+    padding:10px 0;
+}
+.news-top .top-lists .posts-right .posts-item{
+    border:none;
+}
+.news-top .top-lists .posts-right .posts-item h3{
+    font-size:1 rem;
 }
